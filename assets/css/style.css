@@ -1,0 +1,28 @@
+/* FONT IMPORT */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* ROOT VARIABLES */
+:root {
+  --var-main-font: "Outfit";
+  --var-text-color: #333;
+  --var-white-color: #fff;
+  --var-black-color: #000;
+  --var-primary-color: #003566;
+  --var-accent-color: #ffff00;
+  --var-accent-color-2: #e01216;
+}
+
+/* GENERAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--var-main-font), sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--var-text-color);
+}
